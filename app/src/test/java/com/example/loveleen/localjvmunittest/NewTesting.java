@@ -11,4 +11,10 @@ public class NewTesting {
     {
         assertEquals(4,MyCalculatorModel.add(2,2));
     }
+
+    @Test
+    public void subtraction() throws Exception
+    {
+        assertEquals(4,MyCalculatorModel.subtract(8,4));
+    }
 }
